@@ -1,7 +1,5 @@
 def calc():
 
-    # types = ['diesel','gasoline','дизель','бензин','дизельний','бензиновий']
-
     age = int(input('Введіть вік авто:'))
     cc = int(input('Введіть об\'єм двигуна (у куб см): '))
     engine = input('Вкажіть тип двигуна - diesel / gasoline: ')
