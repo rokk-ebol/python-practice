@@ -1,12 +1,11 @@
 #SumoftheDigitsinanInteger
 
-# def sum_of_digits_in_integer():
+def sum_of_digits_in_integer():
 
-#     number = list((input('Enter 4-digits number: ')))
-#     number = int(i for i in number)
+    number = list((input('Enter 4-digits number: ')))
+    number = [int(num) for num in number]
 
-#     result = sum(i for i in number)
+    result = sum(num for num in number)
+    print(result)
 
-#     print(result)
-
-# sum_of_digits_in_integer()
+sum_of_digits_in_integer()
