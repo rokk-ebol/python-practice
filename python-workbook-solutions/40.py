@@ -8,6 +8,8 @@ def name_that_triangle():
 
     sides = [side_a, side_b, side_c]
 
+    #determine if the sides are unique (tricky)
+    
     if len(set(sides)) == 1:
         print('equilateral')
     elif len(set(sides)) == 2:
@@ -17,6 +19,5 @@ def name_that_triangle():
     else:
         print('something is wrong.')
         name_that_triangle()
-
 
 name_that_triangle()
