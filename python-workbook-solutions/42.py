@@ -18,6 +18,8 @@ def freq_to_note():
         print('C4 note')
     elif freq >= D4 - step and freq <= D4 + step:
         print('D4 note')
+    else:
+        print('Not a known note yet')
 
     '''
     overall logic is working so i proceed to a next task
